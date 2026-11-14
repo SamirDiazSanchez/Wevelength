@@ -13,7 +13,7 @@ export default defineConfig({
         description: 'Pares de palabras y número objetivo para jugar Wavelength',
         lang: 'es',
         display: 'standalone',
-        orientation: 'portrait',
+        orientation: 'any',
         background_color: '#0f1226',
         theme_color: '#0f1226',
         icons: [
