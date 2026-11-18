@@ -38,6 +38,10 @@ function prev() {
   if (state.pos > 0) { state.pos--; render(); }
 }
 
+$('reshuffle').onclick = () => {
+  state = { order: shuffle(pairs.length), pos: 0 };
+  render();
+};
 $('next').onclick = next;
 $('prev').onclick = prev;
 
